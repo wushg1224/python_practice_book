@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js syntax</title>
+</head>
+
+<body>
+    <script>
+        var x;
+        let y = 5;
+        const PI = 3.14
+        console.log(x, y, PI);
+        let name = 'xiaowang'
+        console.log(name)
+        let empty_value = null;
+        console.log(empty_value);
+
+        let age = 9;
+        if (age > 18) {
+            console.log('you are adult');
+        } else { console.log('you are child'); }
+
+        // let time = 12;
+        // if (time < 12) {
+        //     alert('good morning');
+        // } else if (time < 18) {
+        //     alert('good afternoon');
+        // } else {
+        //     alert('good evening');
+        // }  
+
+        console.log('for');
+        for (let i = 0; i < 10; i++) {
+            console.log(i)
+        }
+
+        console.log('while');
+        let count = 1
+        while (count <= 10) {
+            console.log(count);
+            count++;
+
+        }
+        console.log('key word');
+        for (var i = 0; i < 7; i++) {
+            if (i == 2) {
+                continue
+            };
+            if (i == 5) {
+                break;
+            }
+            console.log(i);
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
