@@ -1,0 +1,74 @@
+In Python you can open terminal and input "Python3" to 运行python代码
+
+In Python you can use run selective line in terminal to get >>> or in interactive terminal to get a detailded explaination
+
+In Python you can run 程序 in ide 或者 in terminal
+    在terminal中运行python：cd进入目录，ls列出文件，输入python3 xxx.Python
+
+In Python you can use 语法高亮 来帮助突出程序的不同部分
+
+In Python you can use 变量来指向值，赋给值的标签。变量只能数字，字母，下划线，不能用数字开头
+    用全大写变量名来 指出他是常量
+In Python you can use traceback 来找错
+
+In Python you can 处理数据类型 string 字符串，","",都是字符串
+    for string，简单操作，方法来改大小写name.title(),方法后面要()，方法需要额外的信息，信息由()
+提供
+    字符串中使用变量 f{}
+    字符串中 \t \n 是指tab和换行
+    字符串 strip() 删除多余空白 lstrip 前空白， rstrip后空白
+
+In Python you can 处理数据类型 整数 inter
+    写大数用_分割
+    可以同时给变量赋值，变量用,分割
+    
+
+In Python you can 处理数据类型 浮点数 float
+    除法总是浮点数
+
+In Python you can 用#写注释
+
+In Python you can 在解释器中用import this看诗
+
+In Python you can 创建列表，操作列表元素
+    列表list []
+    列表是有序集合 有index，从0开始
+    append方法添加元素
+        bikes = []
+        bikes.append('honda')
+        bikes.append('yamaha')
+    insert 添加任意位置 元素 insert(0,'xxx')
+
+    del 语句删除元素，需要index
+        del bikes[0]
+    pop 方法删除元素，并接着用
+        poped_bike = bikes.pop()
+        pop还可以删任意位置 second_owned = bikes.pop(1)
+    remove方法 根据值来删除元素，能接着用，不知位置
+        bikes.remove('yamaha')
+    sort方法 永久排序
+        字母顺序相反，用传递参数 reverse=True 
+        bikes.sort(reverse=True)
+    sorted函数  临时排序
+        print(sorted(bikes)) print(sorted(bikes, reverse=True))
+    reverse方法
+        永久反转列表顺序
+    len函数 确定列表长度
+        len(bikes)
+
+    数值列表
+    很有用，python有很多工具高效处理数值列表
+    range函数 1到几，不包含几
+        print(range(1,5))
+        range(2, 11, 2) 从2到11 每次加2
+    list函数 转换成列表
+        numbers = list(range(1,5))
+
+In Python you can 遍历整个list，循环对列表的每一个元素采取一系列相同措施
+    遍历
+        for magician in magicians:
+            print(magician)
+    根据indentation缩进来判断代码与前一个代码行的关系
+
+
+
