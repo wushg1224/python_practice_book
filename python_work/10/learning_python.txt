@@ -64,6 +64,8 @@ In Python you can 创建列表，操作列表元素
     list函数 转换成列表
         numbers = list(range(1,5))
 
+        # * * 2 是指数字的平方
+
 In Python you can 遍历整个list，循环对列表的每一个元素采取一系列相同措施
     遍历
         for magician in magicians:

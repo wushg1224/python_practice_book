@@ -3,3 +3,7 @@ How to add shortcut for vs code
     1. Run `Command+K+S` to open keyboard shortcuts.
     2. Then type `Python: Run Python File in Terminal`. Select it
     3.You can then type whatever key binding you want to use to run your code. (I use Command+Alt+N)
+
+
+In termimal if the directory name contains spaces, you might need to use quotation marks around the path:
+
