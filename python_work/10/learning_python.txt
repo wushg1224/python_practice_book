@@ -73,4 +73,34 @@ In Python you can 遍历整个list，循环对列表的每一个元素采取一�
     根据indentation缩进来判断代码与前一个代码行的关系
 
 
+In Python you can 处理列表部分元素--切片
+
+In Python you can 用列表来储存变化的数据集，例如网站用户列表或者游戏角色列表
+
+In Python you can 用元祖来创建一系列不可修改的元素 tuple
+    用（）可以重新赋值给tuple，不可以更改
+
+In Python you can 清晰代码格式
+    程序不同部分分开 空行
+
+In Python you can 检查一系列条件 if
+    布尔表达式 条件测试的别名
+            结果为true或false
+            用于记录条件
+            game_active = True
+            can_edit = False
+In Python you can 用字典，将相关信息关联起来
+    {}
+    get方法用key取值 alien.get('points', 'No point value assigned')
+        第一个参数是指定key，第二个参数是key不存在返回的 值
+        如果第二个参数没有 返回值为 None    
+    .item 方法返回 key 和 value
+    set集合，剔除重复性 {}集合
+
+In Python you can 嵌套
+
+In Python you can 用户输入和while循环
+
+In Python you can 用函数， 函数存在为模块的独立文件内
+
 

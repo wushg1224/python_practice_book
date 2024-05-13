@@ -1,0 +1,12 @@
+ceci
+nancy
+uu
+/usr/local/bin/python3 /Users/ceci/Documents/GitHub/python_practice_book/python_work/10/guest.py
+alex
+aaron
+amy
+/usr/local/bin/python3 /Users/ceci/Documents/GitHub/python_practice_book/python_work/10/guest.py
+amy
+aaron
+alex
+/usr/local/bin/python3 /Users/ceci/Documents/GitHub/python_practice_book/python_work/10/guest.py
